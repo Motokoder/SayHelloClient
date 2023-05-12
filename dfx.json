@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "canisters": {
+    "SayHelloClient": {
+      "type": "motoko",
+      "main": "src/SayHelloClient.mo",
+      "declarations": {
+        "node_compatibility": true
+      }
+    }
+  },
+  "declarations": {
+    "output": "src/declarations"
+  },
+  "defaults": {
+    "build": {
+      "packtool": "vessel sources",
+      "args": ""
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  }
+}

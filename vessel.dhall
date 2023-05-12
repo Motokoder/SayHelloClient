@@ -1,0 +1,1 @@
+{ dependencies = [ "base", "say-hello" ], compiler = Some "0.8.4" }
