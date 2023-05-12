@@ -4,7 +4,7 @@ let upstream =
 let packages = [
   { name = "say-hello"
   , repo = "https://github.com/motokoder/SayHello"
-  , version = "v1.0.0"
+  , version = "v2.0.0"
   , dependencies = [ "base" ]
   },
 ]
